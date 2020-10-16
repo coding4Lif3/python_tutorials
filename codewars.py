@@ -267,28 +267,30 @@ else:
     print("FALSE")
 
 
-#List Sorting
-numbers = [3,51,2,8,6]
+# List Sorting
+numbers = [3, 51, 2, 8, 6]
 numbers.sort()
 print(numbers)
 
-#reverse sorting
+# reverse sorting
 numbers.sort(reverse=True)
 print(numbers)
 
-#How to do a custom sort function
+# How to do a custom sort function
 items = [("Product1", 10), ("Product2", 9), ("Product3", 12)]
 items.sort()
 print(items)
 
+
 def sort_item(item):
     return item[1]
+
 
 items.sort(key=sort_item)
 print(items)
 
-#Lambdas expressions/functions
+# Lambdas expressions/functions
 items.sort(key=lambda item: item[1])
 print(items)
 
-print("pollo")
+print("pol")
